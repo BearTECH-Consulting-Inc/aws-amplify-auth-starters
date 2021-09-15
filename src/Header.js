@@ -13,9 +13,10 @@ class Header extends React.Component {
         <img
           style={styles.amplifyLogo}
           src={require('./assets/amplifywhite.png')}
+          alt=""
         />
         <Link to='/' {...css(styles.link)}>
-          <h2 {...css(styles.title)}>AWS Amplify Auth Starter</h2>
+          <h2 {...css(styles.title)}>PHC Datalake MVP</h2>
         </Link>
         <div {...css(styles.navContainer)}>
           <Link to='/' {...css(styles.link)}>
